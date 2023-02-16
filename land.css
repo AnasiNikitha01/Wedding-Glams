@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #65000a;
+   
+}
+.class1{
+    box-shadow: 0px -1px 5px gold;
+    height: 100vh;
+    transform-style: inherit;
+    animation: fade 1.2s 1;
+}
+
+
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: #65000a;
+    box-shadow: 0px 0px 5px #68000b;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    height: 94px;
+    
+}
+.logo{
+    margin: 0px;
+    height: 80px;
+    width: 350px;
+}
+.logo>img{
+    margin-top: 10px;
+}
+
+@media (max-width:1065px) {
+    .logo>img{
+       width: 300px;
+       height: 70px;
+    }
+}
+@media (max-width:865px) {
+    .logo>img{
+       width: 200px;
+       height: 50px;
+    }
+}
+@media (max-width:702px) {
+    .logo>img{
+        width: 350px;
+        height: 80px;
+    }
+}
+@media (max-width:307px) {
+    .logo>img{
+        width: 200px;
+        height: 50px;
+    }
+}
+@media (max-width:400px) {
+    .logo>img{
+        width: 200px;
+        height: 50px;
+    }
+}
+ 
+
+#bride1{
+    width: 100%;
+    height: 100vh;
+    border-top: 80px solid #68000b;
+    overflow-x: hidden;
+    box-shadow: 0px 2px 29px 18px gold;
+    z-index: 2;
+}
+
+@media (max-width:300px) {
+    .bride{
+        width: 300px;
+        
+    }
+}
+#bride2{
+    width: 50vw;
+    height: 50vh;
+}
+
+.piclogo{
+    position: absolute;
+    top: 204px;
+    right: 89px;
+    animation: piclogo1 2s 1;
+
+}
+
+@media (max-width:1100px) {
+    .piclogo{
+        
+        position: absolute;
+        right: 20px;
+        top: 230px;
+    }
+    .piclogo>img{
+        width:400px ;
+    }
+}
+@media (max-width:992px) {
+    .piclogo>img{
+        width: 400px ;
+    }
+}
+@media (max-width:737px) {
+    .piclogo>img{
+        width: 300px ;
+    }
+    .piclogo>p{
+        margin: 0px;
+        text-align: center;
+    }
+}
+@media (max-width:544px) {
+    .piclogo>img{
+        width: 200px ;
+    }
+    .piclogo{
+        position: absolute;
+        right: 0px;
+    }
+}
+@media (max-width:502px) {
+    .piclogo{
+       width: 200px;
+    }
+}
+@media (max-width:368px) {
+    .piclogo{
+       display: none;
+    }
+}
+
+@keyframes piclogo1 {
+    0%{
+        background: transparent;
+        transform: translateY(-100%);
+       }
+       100%{
+        transform: translateY(0%);
+        
+       }
+}
+
+
+
+.piclogo>p{
+    text-align: center;
+    color: rgb(219 198 72 / 90%);
+    font-size: larger;
+}
+
+@media (max-width:902px) {
+    .piclogo>p{
+        text-align: center;
+        color: rgb(219 198 72 / 90%);
+        font-size: small;
+    }
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.nav1>li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width:865px) {
+    .nav1>li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:702px) {
+    .nav1{
+        display: none;
+    }
+}
+.nav1>li>a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(219 198 72 / 80%);
+}
+.active{
+    background-color: #cc848c;
+}
+.nav1>li:hover{
+
+    transform: translateY(-10px);
+    
+}
+.nav1>li>a:hover{
+    color: goldenrod;
+    
+}
+.dropdown{
+    background-color: rgba(241, 208, 18, 0.959);
+    border-radius: 100px;
+    
+}
+
+@media (min-width:703px) {
+    .dropdown{
+        display: none;
+    }
+}
+
+.class2{
+    background-color: #74010d;
+    padding-top: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width:300px) {
+    .class2{
+        width: 300px;
+    }
+    .class2>img{
+        width: 100%;
+    }
+}
+
+.class2>h2{
+    text-align: center;
+    color: #74010d;
+    font-size: 55px;
+    text-shadow: 0px 0px 5px gold;
+    /* margin: 25px; */
+    margin-bottom: 35px;
+}
+.wedding{
+    color: white;
+    font-size: large;
+    line-height: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.maids{
+    width:80%;
+    height: 80vh;
+    margin: 0px auto;
+}
+
+.class3{
+    box-shadow: 0px 2px 29px 18px gold;
+    background-color: #74010d;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.class3>h2{
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px white;
+    text-align: center;
+    padding-top: 25px;
+}
+.note{
+    width: 100%;
+    color: whitesmoke;
+    font-size: large;
+    line-height: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#note{
+    
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 25px;
+    font-size: x-large;
+}
+#notehe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col1,#col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+   width: 100%;
+   height: 500px; 
+   padding: 0px;
+   margin: 0px;
+}
+.b2{
+   width: 100%;
+   height: 500px; 
+   padding: 0px;
+   margin: 0px;
+}
+
+#cont1{
+   margin: 0px;
+    display: grid;
+    grid-template-columns: 3fr 7fr 3fr;
+}
+
+@media (max-width:578px) {
+    #cont1{
+        margin: 0px;
+         display: grid;
+         grid-template-columns: 3fr 6fr 3fr;
+     } 
+}
+@media (max-width:409px) {
+    .b1,.b2{
+        display: none;
+    } 
+    #cont1{
+        display: block;
+        width: 100%;
+    }
+    .class3{
+        width: 100%;
+    }
+}
+
+@media (max-width:300px) {
+    .class3{
+   width: 300px;
+}
+}
+
+
+
+footer{
+    background-color: #74010d;
+    border-top: goldenrod double 3px;
+}
+
+#footrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    margin: 20px auto;
+}
+#contact>p>a{
+    color: white;
+    margin: 10px;
+    font-size: large;
+    text-decoration: none;
+}
+#contact>h2{
+    color: white;
+}
+#connect{
+    margin: 20px auto;
+}
+#connect>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#connect>ul>li{
+    list-style: none;
+}
+#connect>ul>li:hover{
+    transform:translate3d(-10px,20px,-30px);
+}
+#connect>ul>li>a{
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+}
+#connect>h2{
+    color: white;
+}
+
+#down{
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+@media (max-width:300px) {
+    footer{
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
